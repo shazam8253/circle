@@ -34,7 +34,7 @@ const CustomTabBarButton = ({children, onPress}) => (
 
 const AppMain = () => {
     const loggedIn = useSelector((state) =>  state.login.status)
-    if (loggedIn == false) {
+    if (loggedIn == true) {
         return(
             <LoginScreen></LoginScreen>
         )
@@ -107,7 +107,7 @@ const AppMain = () => {
                                 style = {{
                                     width: 25,
                                     height: 25,
-                                    tintColor: focused ? '#e32f45' : '#748c94'
+                                    // {/*tintColor: focused ? '#e32f45' : '#748c94'*/}
                                 }}>
 
                                 </Image>

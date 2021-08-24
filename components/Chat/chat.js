@@ -3,14 +3,13 @@ import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-nativ
 
 const styles = StyleSheet.create({
     container : {
-        backgroundColor:"#465881"
+        backgroundColor:"#927881"
     }
-
-  });
+})
 
 const ChatScreen  = () => {
     return(
-        <View style={styles.container}>
+        <View style = {styles.container}>
         </View>
     )
 }
